@@ -1,0 +1,47 @@
+ @charset "UTF-8";
+
+#wrapper {
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+body {
+     background: linear-gradient(to bottom, #F2E2CE 0%, #23B7D9 100%);
+     padding:0px;
+    margin:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:#F2E2CE;
+}
+
+footer {
+    background-color:#F2E2CE;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    padding:15px;
+    margin-left:5px;
+}
+
+.clear {
+    clear:both;
+}
+video {
+    margin:15px;
+}
+
+img {
+    width:220px;
+}
+
+figure {
+    width:220px;
+}
+
+figcaption {
+    text-align:center;
+}
+
