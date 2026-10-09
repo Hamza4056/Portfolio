@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*  Body styling for tablet */
+/*  Styles the tablet page  */
 body {
     color:black;
     background: linear-gradient(to bottom, #F2E2CE 0%, #23B7D9 100%);
@@ -12,21 +12,21 @@ h1, h2, h3, h4, h5, h6, p, li {
     margin-left:15px;
     margin-top:0px;
 }
-
+/* Makes the page fit the tablet screen */
 #wrapper {
     width:100%;
     margin-right:auto;
     margin-left:auto;
 }
-/* Header and the footer */
+/* Styles the header and footer */
 header {
-    background-color:#F2E2CE;
+    background: linear-gradient(45deg, #F2E2CE 0%, #23B7D9 100%);
 }
 
 footer {
     background-color:#F2E2CE;
 }
-/* Image and video styling */
+/* Sets the image and video size */
 img {
     width:220px;
 }
@@ -34,7 +34,7 @@ img {
 video {
     margin:15px;
 }
-/* Caption for images */
+/* Styles the caption for images */
 figure {
     width:220px;
 }
